@@ -9,3 +9,4 @@ resource "aws_vpc" "test1" {
       "Name" = "VPC1"
 
     }
+}
