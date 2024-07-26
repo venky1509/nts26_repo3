@@ -31,3 +31,15 @@ pipeline {
         }
     }
 }
+
+pipeline {
+    agent any
+
+    stages {
+        stage('stage4') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
